@@ -1,0 +1,20 @@
+{
+  "name": "El Rincón Cofrade",
+  "short_name": "Rincón Cofrade",
+  "description": "Directorio nacional de hermandades y cofradías de Semana Santa",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0C0A10",
+  "theme_color": "#0C0A10",
+  "lang": "es-ES",
+  "icons": [
+    { "src": "logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Directorio", "url": "/?tab=directorio" },
+    { "name": "Agenda",     "url": "/?tab=agenda"     },
+    { "name": "Eco Cofrade","url": "/?tab=eco"         }
+  ]
+}
